@@ -2,7 +2,7 @@ crustacea
 eurypterida
 insecta
 cryptolithus
-calymeme
+calymene
 elrathia
 isotelus
 eldredgeops

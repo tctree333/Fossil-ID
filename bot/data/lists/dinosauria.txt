@@ -2,7 +2,7 @@ allosaurus
 coelophysis
 dilophosarus
 spinsaurus
-turannosaurus
+tyrannosaurus
 velociraptor
 brachiosaurus
 diplodocus
@@ -12,7 +12,7 @@ ankylosaurus
 triceratops
 protoceratops
 iguanodon
-parasairolophus
-maisaura
-dracorez
+parasaurolophus
+maiasaura
+dracorex
 stegosaurus
