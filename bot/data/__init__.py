@@ -25,7 +25,8 @@ from discord.ext import commands
 import bot.config as config
 
 # define database for one connection
-database = redis.Redis(host='localhost', port=6379, db=0)
+database = redis.from_url(os.getenv("REDIS_URL"))
+#database = redis.Redis(host='localhost', port=6379, db=0)
 
 
 # Database Format Definitions
