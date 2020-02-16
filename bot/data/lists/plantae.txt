@@ -7,3 +7,5 @@ metasequoia
 calamites
 glossopteris
 psaronius
+annularia
+pecopteris

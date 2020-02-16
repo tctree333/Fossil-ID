@@ -1,7 +1,7 @@
 allosaurus
 coelophysis
-dilophosarus
-spinsaurus
+dilophosaurus
+spinosaurus
 tyrannosaurus
 velociraptor
 brachiosaurus
