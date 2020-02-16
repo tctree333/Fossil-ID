@@ -5,7 +5,7 @@ equus
 australopithecus
 homo neanderthalensis
 homo erectus
-homo sapien
+homo sapiens
 mammut
 mammuthus primigenius
 megacerops
