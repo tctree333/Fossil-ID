@@ -10,8 +10,8 @@ juresania,https://en.wikipedia.org/wiki/Witts_Springs_Formation
 mucrospirifer,https://en.wikipedia.org/wiki/Mucrospirifer
 platystrophia,https://en.wikipedia.org/wiki/Platystrophia
 rafinesquina,https://en.wikipedia.org/wiki/Tabulata
-rhynchonellida,https://en.wikipedia.org/wiki/Brachiopod
-acer,https://en.wikipedia.org/wiki/Acer_palaeorufinerve
+rhynchonellida,https://en.wikipedia.org/wiki/Rhynchonellida
+acer,https://en.wikipedia.org/wiki/Maple
 populus,https://en.wikipedia.org/wiki/Populus
 platanus,https://en.wikipedia.org/wiki/Platanus
 ginkgo,https://en.wikipedia.org/wiki/Ginkgo
@@ -56,7 +56,7 @@ belemnitella,https://en.wikipedia.org/wiki/Belemnitella
 nautilida,https://en.wikipedia.org/wiki/Nautilida
 orthocerida,https://en.wikipedia.org/wiki/Orthocerida
 conus,https://en.wikipedia.org/wiki/Conus
-cypraea,https://en.wikipedia.org/wiki/Miocene_fauna_of_north-eastern_Paratethys
+cypraea,https://en.wikipedia.org/wiki/Cypraea
 platyceras,https://en.wikipedia.org/wiki/Platyceras
 turritella,https://en.wikipedia.org/wiki/Turritella
 worthenia,https://en.wikipedia.org/wiki/Worthenia
@@ -67,7 +67,7 @@ equus,https://en.wikipedia.org/wiki/Horse
 australopithecus,https://en.wikipedia.org/wiki/Australopithecus
 homo neanderthalensis,https://en.wikipedia.org/wiki/Neanderthal
 homo erectus,https://en.wikipedia.org/wiki/Homo_erectus
-homo sapiens,https://en.wikipedia.org/wiki/Homo_sapiens_idaltu
+homo sapiens,https://en.wikipedia.org/wiki/Homo_sapiens
 mammut,https://en.wikipedia.org/wiki/Mastodon
 mammuthus primigenius,https://en.wikipedia.org/wiki/Woolly_mammoth
 megacerops,https://en.wikipedia.org/wiki/Megacerops
@@ -97,7 +97,7 @@ agnatha,https://en.wikipedia.org/wiki/Agnatha
 bothriolepis,https://en.wikipedia.org/wiki/Bothriolepis
 dunkleosteus,https://en.wikipedia.org/wiki/Dunkleosteus
 otodus,https://en.wikipedia.org/wiki/Otodus
-carcharocles megalodon,https://en.wikipedia.org/wiki/Carcharocles
+carcharocles megalodon,https://en.wikipedia.org/wiki/Megalodon
 batoidea,https://en.wikipedia.org/wiki/Batoidea
 knightia,https://en.wikipedia.org/wiki/Knightia
 xiphactinus,https://en.wikipedia.org/wiki/Xiphactinus
