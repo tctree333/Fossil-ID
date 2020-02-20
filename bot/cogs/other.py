@@ -14,6 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+import itertools
 import random
 import typing
 from difflib import get_close_matches
@@ -40,16 +41,7 @@ class Other(commands.Cog):
         await channel_setup(ctx)
         await user_setup(ctx)
 
-        close_aliases = []
-
-        for alias in aliases.values():
-            matches = get_close_matches(arg.lower(), alias, n=1)
-            if matches:
-                close_aliases.append(matches[0])
-        alias_match = get_close_matches(arg.lower(), close_aliases, n=1)
-        arg = [name for name, alias in aliases.items() if alias_match[0] in alias[0]]
-
-        matches = get_close_matches(arg, id_list, n=1)
+        matches = get_close_matches(arg.lower(), id_list + list(itertools.chain.from_iterable(aliases.values())), n=1)
         if matches:
             item = matches[0]
 
