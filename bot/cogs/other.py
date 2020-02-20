@@ -14,6 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+import itertools
 import random
 import typing
 from difflib import get_close_matches
@@ -40,16 +41,7 @@ class Other(commands.Cog):
         await channel_setup(ctx)
         await user_setup(ctx)
 
-        close_aliases = []
-
-        for alias in aliases.keys():
-            matches = get_close_matches(arg.lower(), aliases[alias], n=1)
-            if matches:
-                close_aliases.append(matches[0])
-        alias_match = get_close_matches(arg.lower(), close_aliases, n=1)
-        arg = [name for name, alias in aliases.items() if alias_match[0] in aliases[name]][0]
-
-        matches = get_close_matches(arg, id_list, n=1)
+        matches = get_close_matches(arg.lower(), id_list + list(itertools.chain.from_iterable(aliases.values())), n=1)
         if matches:
             item = matches[0]
 
@@ -63,7 +55,7 @@ class Other(commands.Cog):
     # List command
     @commands.command(help="- DMs the user with the appropriate list.", name="list")
     @commands.cooldown(1, 8.0, type=commands.BucketType.user)
-    async def list_of_items(self, ctx, group = ""):
+    async def list_of_items(self, ctx, group=""):
         logger.info("command: list")
 
         await channel_setup(ctx)
@@ -94,7 +86,6 @@ class Other(commands.Cog):
             f"*A full list of {detected_groups} has been sent to you via DMs.*"
         )
 
-
     # Group command - lists groups
     @commands.command(help="- DMs the user with the appropriate list.", aliases=["taxons", "group", "categories"])
     @commands.cooldown(1, 8.0, type=commands.BucketType.user)
@@ -105,7 +96,6 @@ class Other(commands.Cog):
         await user_setup(ctx)
 
         await ctx.send(f"**Valid Groups**: `{', '.join(map(str, list(groups.keys())))}`")
-
 
     # Wiki command - argument is the wiki page
     @commands.command(help="- Fetch the wikipedia page for any given argument")
@@ -123,7 +113,6 @@ class Other(commands.Cog):
             await ctx.send("Sorry, that page was not found. Try being more specific.")
         except wikipedia.exceptions.PageError:
             await ctx.send("Sorry, that page was not found.")
-
 
     # bot info command - gives info on bot
     @commands.command(
@@ -154,8 +143,8 @@ class Other(commands.Cog):
         embed.add_field(
             name="Stats",
             value=f"This bot can see {len(self.bot.users)} users and is in {len(self.bot.guilds)} servers. " +
-            f"There are {int(database.zcard('users:global'))} active users in {int(database.zcard('score:global'))} channels. " +
-            f"The WebSocket latency is {str(round((self.bot.latency*1000)))} ms.",
+            f"There are {int(database.zcard('users:global'))} active users in {int(database.zcard('score:global'))} channels. "
+            + f"The WebSocket latency is {str(round((self.bot.latency*1000)))} ms.",
             inline=False
         )
         await ctx.send(embed=embed)
@@ -192,7 +181,7 @@ class Other(commands.Cog):
         logger.info(f"user-id: {user.id}")
         database.zadd("banned:global", {str(user.id): 0})
         await ctx.send(f"Ok, {user.name} cannot use the bot anymore!")
-    
+
     # unban command - prevents certain users from using the bot
     @commands.command(help="- unban command", hidden=True)
     @commands.check(owner_check)
@@ -229,7 +218,7 @@ class Other(commands.Cog):
     @commands.command(help="- test command", hidden=True)
     async def error(self, ctx):
         logger.info("command: error")
-        await ctx.send(1/0)
+        await ctx.send(1 / 0)
 
 def setup(bot):
     bot.add_cog(Other(bot))
