@@ -24,12 +24,12 @@ from bot.core import send_image
 from bot.data import database, id_list, logger, groups
 from bot.functions import channel_setup, error_skip, user_setup, build_id_list
 
-ARG_MESSAGE = f"**Recongnized arguments:** *{config.CATEGORY_NAME}*: `"+"{category}`"
+ARG_MESSAGE = f"**Recongnized arguments:** *{config.CATEGORY_NAME}*: `" + "{category}`"
 
 IMAGE_MESSAGE = (
     f"*Here you go!* \n**Use `{config.PREFIXES[0]}pic` again to get a new image of the same {config.ID_TYPE}, " +
-    f"or `{config.PREFIXES[0]}skip` to get a new {config.ID_TYPE}. Use `{config.PREFIXES[0]}check [guess]` to check your answer. " +
-    f"Use `{config.PREFIXES[0]}hint` for a hint.**"
+    f"or `{config.PREFIXES[0]}skip` to get a new {config.ID_TYPE}. Use `{config.PREFIXES[0]}check [guess]` to check your answer. "
+    + f"Use `{config.PREFIXES[0]}hint` for a hint.**"
 )
 
 class Media(commands.Cog):
@@ -67,10 +67,9 @@ class Media(commands.Cog):
                 message=IMAGE_MESSAGE
             )
 
-
     # Pic command - no args
     # help text
-    @commands.command(help='- Sends a random image for you to ID', aliases=["p"])
+    @commands.command(help='- Sends a random image for you to ID', aliases=["p", config.ID_TYPE, config.ID_TYPE[0]])
     # 5 second cooldown
     @commands.cooldown(1, 5.0, type=commands.BucketType.channel)
     async def pic(self, ctx, *, args_str: str = ""):
@@ -83,7 +82,6 @@ class Media(commands.Cog):
             args_str = ""
 
         await self.send_pic_(ctx, args_str)
-
 
 def setup(bot):
     bot.add_cog(Media(bot))
