@@ -46,7 +46,7 @@ exogyra,https://en.wikipedia.org/wiki/Exogyra
 gryphaea,https://en.wikipedia.org/wiki/Gryphaea
 pecten,https://en.wikipedia.org/wiki/Pecten_(bivalve)
 glycymeris,https://en.wikipedia.org/wiki/Glycymeris
-astarte,https://en.wikipedia.org/wiki/Gerard_Spaink
+astarte,https://en.wikipedia.org/wiki/Astarte_(bivalve)
 nucula,https://en.wikipedia.org/wiki/Nucula
 goniatitida,https://en.wikipedia.org/wiki/Goniatite
 ceratitida,https://en.wikipedia.org/wiki/Ceratitida
