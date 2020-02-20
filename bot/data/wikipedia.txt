@@ -2,14 +2,14 @@ favosites,https://en.wikipedia.org/wiki/Favosites
 halysites,https://en.wikipedia.org/wiki/Halysites
 heliophyllum,https://en.wikipedia.org/wiki/Heliophyllum
 hexagonaria,https://en.wikipedia.org/wiki/Hexagonaria
-septastrea,https://en.wikipedia.org/wiki/Yorktown_Formation
+septastrea,https://neogeneatlas.net/species/septastrea-marylandica/
 lingula,https://en.wikipedia.org/wiki/Lingula_(brachiopod)
 atrypa,https://en.wikipedia.org/wiki/Atrypa
 composita,https://en.wikipedia.org/wiki/Composita
-juresania,https://en.wikipedia.org/wiki/Witts_Springs_Formation
+juresania,https://pennsylvanianatlas.org/genera/juresania/
 mucrospirifer,https://en.wikipedia.org/wiki/Mucrospirifer
 platystrophia,https://en.wikipedia.org/wiki/Platystrophia
-rafinesquina,https://en.wikipedia.org/wiki/Tabulata
+rafinesquina,https://www.ordovicianatlas.org/atlas/brachiopoda/strophomenata/strophomenida/rafinesquinidae/rafinesquina/
 rhynchonellida,https://en.wikipedia.org/wiki/Rhynchonellida
 acer,https://en.wikipedia.org/wiki/Maple
 populus,https://en.wikipedia.org/wiki/Populus
@@ -25,7 +25,7 @@ pecopteris,https://en.wikipedia.org/wiki/Pecopteris
 crustacea,https://en.wikipedia.org/wiki/Crustacean
 eurypterida,https://en.wikipedia.org/wiki/Eurypterid
 insecta,https://en.wikipedia.org/wiki/Insect
-cryptolithus,https://en.wikipedia.org/wiki/Kope_Formation
+cryptolithus,https://en.wikipedia.org/wiki/Cryptolithus
 calymene,https://en.wikipedia.org/wiki/Calymene
 elrathia,https://en.wikipedia.org/wiki/Elrathia
 isotelus,https://en.wikipedia.org/wiki/Isotelus
@@ -91,8 +91,8 @@ parasaurolophus,https://en.wikipedia.org/wiki/Parasaurolophus
 maiasaura,https://en.wikipedia.org/wiki/Maiasaura
 dracorex,https://en.wikipedia.org/wiki/Pachycephalosaurus
 stegosaurus,https://en.wikipedia.org/wiki/Stegosaurus
-astraeospongia,https://en.wikipedia.org/wiki/List_of_prehistoric_sponge_genera
-hydnoceras,https://en.wikipedia.org/wiki/List_of_prehistoric_sponge_genera
+astraeospongia,http://fossilworks.org/bridge.pl?a=taxonInfo&taxon_no=3608
+hydnoceras,http://fossilworks.org/?a=taxonInfo&taxon_no=4107
 agnatha,https://en.wikipedia.org/wiki/Agnatha
 bothriolepis,https://en.wikipedia.org/wiki/Bothriolepis
 dunkleosteus,https://en.wikipedia.org/wiki/Dunkleosteus
