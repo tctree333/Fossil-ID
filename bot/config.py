@@ -14,3 +14,5 @@ SOURCE_LINK = "https://github.com/tctree333/Fossil-ID"  # link to source code (m
 ID_GROUPS = True  # True/False - if you want to be able to select certain groups of items to id
 CATEGORY_NAME = "Taxon"  # space thing, bird order, muscle group - what you are splitting groups by
 CATEGORY_ALIASES = {}  # aliases for categories
+
+SENTRY = True
