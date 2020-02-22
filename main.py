@@ -20,7 +20,7 @@ bot.setup(
     local_redis = False,
     sentry = True,
 
-    invite = "This bot is currently not avaliable outside the support server.",
+    invite = "https://discordapp.com/api/oauth2/authorize?client_id=678437690848313373&permissions=51200&scope=bot",
     support_server = "https://discord.gg/4KdyGc5",
     authors = "person_v1.32, EraserBird, and hmmm",
     source_link = "https://github.com/tctree333/Fossil-ID",
