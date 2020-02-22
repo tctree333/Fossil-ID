@@ -1,1 +1,1 @@
-sciolyid==0.0.6
+sciolyid>=0.0.7
