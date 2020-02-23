@@ -116,3 +116,13 @@ acanthostega,https://en.wikipedia.org/wiki/Acanthostega
 eryops,https://en.wikipedia.org/wiki/Eryops
 diplocaulus,https://en.wikipedia.org/wiki/Diplocaulus
 leptaena,https://www.britannica.com/animal/Leptaena
+coqina,https://en.wikipedia.org/wiki/Coquina
+chalk,https://en.wikipedia.org/wiki/Chalk
+fossiliferous limestone,https://en.wikipedia.org/wiki/Fossiliferous_limestone
+sandstone,https://en.wikipedia.org/wiki/Sandstone
+shale,https://en.wikipedia.org/wiki/Shale
+chert,https://en.wikipedia.org/wiki/Chert
+stromatolite,https://en.wikipedia.org/wiki/Stromatolite
+amber,https://en.wikipedia.org/wiki/Amber
+petrified wood,https://en.wikipedia.org/wiki/Petrified_wood
+coprolite,https://en.wikipedia.org/wiki/Coprolite
