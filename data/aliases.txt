@@ -5,4 +5,4 @@ belemnitella,belemnite
 homo neanderthalensis,neanderthal,h. neanderthalensis
 homo erectus,h. erectus
 homo sapien,h. sapien
-mammuthus primigenius,m. primigenius
+mammuthus primigenius,m. primigenius,mammuthus
