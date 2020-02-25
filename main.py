@@ -4,7 +4,7 @@ bot.setup(
     bot_description = "Fossil ID - A SciOly Discord Bot for aspiring paleontologists",
     bot_signature = "Fossil ID - A Paleontology Bot",
     prefixes = ["f!", "f.", "F!", "F."],
-    id_type = "fossil",
+    id_type = "fossils",
     name = "fossil-id",
 
     github_image_repo_url = "https://github.com/tctree333/Fossil-Bot-Images.git",
