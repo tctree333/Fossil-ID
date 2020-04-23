@@ -17,6 +17,7 @@ bot.setup(
     file_folder = "bot_files",
     data_dir = "data",
 
+    backups_channel=678435444219969538,
     local_redis = False,
     sentry = True,
 
