@@ -14,7 +14,7 @@ bot.setup(
 
     logs = True,
     log_dir = "logs",
-    file_folder = "bot_files",
+    bot_files_dir = "bot_files",
     data_dir = "data",
 
     backups_channel = 678435444219969538,
