@@ -1,0 +1,13 @@
+dimetrodon
+lystrosaurus
+basilosaurus
+equus
+australopithecus
+homo neanderthalensis
+homo erectus
+homo sapiens
+mammut
+mammuthus primigenius
+megacerops
+mesohippus
+smilodon
