@@ -3,11 +3,11 @@ lystrosaurus
 basilosaurus
 equus
 australopithecus
-homo neanderthalensis
-homo erectus
-homo sapiens
+homo neanderthalensis,neanderthal,h. neanderthalensis
+homo erectus,h. erectus
+homo sapien,h. sapien
 mammut
-mammuthus primigenius
+mammuthus primigenius,m. primigenius,mammuthus
 megacerops
 mesohippus
 smilodon

@@ -4,11 +4,11 @@ pecten
 glycymeris
 astarte
 nucula
-goniatitida
+goniatitida,goniatites
 ceratitida
 baculites
 dactylioceras
-belemnitella
+belemnitella,belemnite
 nautilida
 orthocerida
 conus

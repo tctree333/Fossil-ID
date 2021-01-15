@@ -2,7 +2,7 @@ agnatha
 bothriolepis
 dunkleosteus
 otodus
-carcharocles megalodon
+carcharocles megalodon,megalodon,c. megalodon
 batoidea
 knightia
 xiphactinus

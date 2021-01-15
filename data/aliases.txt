@@ -1,8 +1,0 @@
-carcharocles megalodon,megalodon,c. megalodon
-ammonitida,ammonite
-goniatitida,goniatites
-belemnitella,belemnite
-homo neanderthalensis,neanderthal,h. neanderthalensis
-homo erectus,h. erectus
-homo sapien,h. sapien
-mammuthus primigenius,m. primigenius,mammuthus
