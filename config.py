@@ -18,6 +18,6 @@ config = {
     "authors": "person_v1.32, EraserBird, and hmmm",
     "sentry": True,
     "local_redis": False,
-    "backups_channel": 678435444219969538,
+    "backups_channel": None,
     "id_groups": True,
 }
