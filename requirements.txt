@@ -1,1 +1,2 @@
 sciolyid==2.0.1
+sentry-sdk==1.26.0
