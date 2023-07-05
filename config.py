@@ -41,7 +41,7 @@ config = {
     ],
     "id_groups": True,
     "category_name": "taxon",
-    # "sentry": True,
+    "sentry": True,
     "local_redis": False,
     "backups_channel": None,
 }
