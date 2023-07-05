@@ -45,5 +45,6 @@ async def get_urls(
 
     logger.info(f"item ids: {','.join([str(r['uuid']) for r in records])}")
     for record in records:
-        urls.append(record["indexTerms"]["accessuri"])
+        if "indexTerms" in record and "accessuri" in record["indexTerms"]:
+            urls.append(record["indexTerms"]["accessuri"])
     return ((index + count) % data["itemCount"], tuple(urls))
