@@ -1,0 +1,6 @@
+coqina
+chalk
+fossiliferous limestone
+sandstone
+shale
+chert
