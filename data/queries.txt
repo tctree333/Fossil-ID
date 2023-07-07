@@ -1,0 +1,128 @@
+favosites	genus
+halysites	genus
+heliophyllum	genus
+hexagonaria	genus
+septastrea	genus
+lingula	genus
+atrypa	genus
+composita	genus
+juresania	genus
+leptaena	genus
+mucrospirifer	genus
+platystrophia	genus
+rafinesquina	genus
+rhynchonellida	order
+acer	genus
+populus	genus
+platanus	genus
+ginkgo	genus
+lepidodendron	genus
+metasequoia	genus
+calamites	genus
+glossopteris	genus
+psaronius	genus
+annularia	genus
+pecopteris	genus
+archimedes	genus
+rhombopora	genus
+archaeopteryx	genus
+titanis	genus
+ichthyornis	genus
+asteroidea	class
+pentremites	genus
+crinoidea	class
+echinoidea	class
+ophiuroidea	class
+crustacea	"class":["cephalocarida","ostracoda","copepoda","mystacocarida","remipedia","branchiura","cirripedia","malacostraca"]
+eurypterida	order
+insecta	class
+cryptolithus	genus
+calymene	genus
+elrathia	genus
+isotelus	genus
+eldredgeops	genus
+fusulinida	order
+nummulites	genus
+exogyra	genus
+gryphaea	genus
+pecten	genus
+glycymeris	genus
+astarte	genus
+nucula	genus
+goniatitida	order
+ceratitida	order
+baculites	genus
+dactylioceras	genus
+belemnitella	genus
+nautilida	order
+orthocerida	order
+conus	genus
+cypraea	genus
+platyceras	genus
+turritella	genus
+worthenia	genus
+dimetrodon	genus
+lystrosaurus	genus
+basilosaurus	genus
+equus	genus
+australopithecus	genus
+homo neanderthalensis	scientificname
+homo erectus	scientificname
+homo sapiens	"scientificname":"homo sapiens","recordset":"0220907a-0463-4ae0-8a0b-77f5e80fff40"
+mammut	genus
+mammuthus primigenius	scientificname
+megacerops	genus
+mesohippus	genus
+smilodon	genus
+allosaurus	genus
+coelophysis	genus
+dilophosaurus	genus
+spinosaurus	genus
+tyrannosaurus	genus
+velociraptor	genus
+brachiosaurus	genus
+diplodocus	genus
+patagotitan	genus
+plateosaurus	genus
+ankylosaurus	genus
+triceratops	genus
+protoceratops	genus
+iguanodon	genus
+parasaurolophus	genus
+maiasaura	genus
+dracorex	genus
+stegosaurus	genus
+astraeospongia	genus
+hydnoceras	genus
+agnatha	"class":["pteraspidomorphi","thelodonti","cephalaspidomorphi","osteostraci"]
+bothriolepis	genus
+dunkleosteus	genus
+otodus	genus
+carcharocles megalodon	scientificname
+batoidea	"order":["batoidea","myliobatiformes","rajiformes","torpediniformes","rhinopristiformes"]
+knightia	genus
+xiphactinus	genus
+eusthenopteron	genus
+latimeria	genus
+tiktaalik	genus
+dendroidea	order
+graptoloidea	order
+stromatolite	
+amber	
+petrified wood	
+coprolite	
+coqina	
+chalk	
+fossiliferous limestone	
+sandstone	
+shale	
+chert	
+crocodilia	order
+testudines	order
+ichthyosauria	order
+mosasauridae	family
+plesiosauria	order
+pterosauria	order
+acanthostega	genus
+eryops	genus
+diplocaulus	genus

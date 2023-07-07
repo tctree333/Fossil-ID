@@ -5,9 +5,23 @@ import aiohttp
 
 
 COUNT = 5
-MEDIA_URL = "https://search.idigbio.org/v2/search/media?rq=%7B%22data%22:%7B%22type%22:%22fulltext%22,%22value%22:%22{specimen}%22%7D,%22hasImage%22:true%7D&fields=%5B%22accessuri%22%5D&sort=uuid&limit={count}&offset={offset}"
+MEDIA_URL = "https://search.idigbio.org/v2/search/media?rq=%7B{query},%22hasImage%22:true%7D&fields=%5B%22accessuri%22%5D&sort=uuid&limit={count}&offset={offset}"
 
 logger = logging.getLogger("fossil-id")
+
+QUERIES = {}
+with open("data/queries.txt", "rt") as f:
+    for raw_row in f.readlines():
+        row = raw_row.strip().split("\t")
+        if row:
+            if row[1] in ["order", "family", "genus", "scientificname"]:
+                QUERIES[row[0]] = f"%22{row[1]}%22:%22{row[0]}%22"
+            elif row[1] == "":
+                QUERIES[
+                    row[0]
+                ] = f"%22data%22:%7B%22type%22:%22fulltext%22,%22value%22:%22{row[0]}%22%7D"
+            else:
+                QUERIES[row[0]] = row[1]
 
 
 async def get_urls(
@@ -26,8 +40,13 @@ async def get_urls(
     images. The new offset is returned as the first element of the tuple.
     """
     urls = []
+    query = (
+        QUERIES[item]
+        if item in QUERIES
+        else f"%22data%22:%7B%22type%22:%22fulltext%22,%22value%22:%22{item}%22%7D"
+    )
     async with session.get(
-        MEDIA_URL.format(specimen=item, count=count, offset=index)
+        MEDIA_URL.format(query=query, count=count, offset=index)
     ) as resp:
         data = await resp.json()
         records = data["items"]
@@ -35,7 +54,7 @@ async def get_urls(
     if not records:
         index = 0
         async with session.get(
-            MEDIA_URL.format(specimen=item, count=count, offset=0)
+            MEDIA_URL.format(query=query, count=count, offset=0)
         ) as resp:
             data = await resp.json()
             records = data["items"]
