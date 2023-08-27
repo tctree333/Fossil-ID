@@ -1,4 +1,4 @@
-coqina
+coquina
 chalk
 fossiliferous limestone
 sandstone
