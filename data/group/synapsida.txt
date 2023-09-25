@@ -11,3 +11,6 @@ mammuthus primigenius,m. primigenius,mammuthus
 megacerops
 mesohippus
 smilodon
+gorgonops
+megalonyx
+merycoidodon

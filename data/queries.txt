@@ -126,3 +126,13 @@ pterosauria	order
 acanthostega	genus
 eryops	genus
 diplocaulus	genus
+peronopsis	genus
+pachycephalosaurus	genus
+hesperornis	genus
+gorgonops	genus
+deinonychus	genus
+megalonyx	genus
+merycoidodon	genus
+apatosaurus	genus
+triticites	genus
+eurypterus	genus

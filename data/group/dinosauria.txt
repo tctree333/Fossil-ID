@@ -14,5 +14,7 @@ protoceratops
 iguanodon
 parasaurolophus
 maiasaura
-dracorex,pachycephalosaurus
 stegosaurus
+pachycephalosaurus
+deinonychus
+apatosaurus

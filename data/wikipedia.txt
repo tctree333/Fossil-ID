@@ -126,3 +126,13 @@ stromatolite,https://en.wikipedia.org/wiki/Stromatolite
 amber,https://en.wikipedia.org/wiki/Amber
 petrified wood,https://en.wikipedia.org/wiki/Petrified_wood
 coprolite,https://en.wikipedia.org/wiki/Coprolite
+peronopsis,https://en.wikipedia.org/wiki/Peronopsis
+pachycephalosaurus,https://en.wikipedia.org/wiki/Pachycephalosaurus
+hesperornis,https://en.wikipedia.org/wiki/Hesperornis
+gorgonops,https://en.wikipedia.org/wiki/Gorgonops
+deinonychus,https://en.wikipedia.org/wiki/Deinonychus
+megalonyx,https://en.wikipedia.org/wiki/Megalonyx
+merycoidodon,https://en.wikipedia.org/wiki/Merycoidodon
+apatosaurus,https://en.wikipedia.org/wiki/Apatosaurus
+triticites,https://en.wikipedia.org/wiki/Fusulinida
+eurypterus,https://en.wikipedia.org/wiki/Eurypterus
