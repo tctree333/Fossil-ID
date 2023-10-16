@@ -116,7 +116,7 @@ acanthostega,https://en.wikipedia.org/wiki/Acanthostega
 eryops,https://en.wikipedia.org/wiki/Eryops
 diplocaulus,https://en.wikipedia.org/wiki/Diplocaulus
 leptaena,https://www.britannica.com/animal/Leptaena
-coqina,https://en.wikipedia.org/wiki/Coquina
+coquina,https://en.wikipedia.org/wiki/Coquina
 chalk,https://en.wikipedia.org/wiki/Chalk
 fossiliferous limestone,https://en.wikipedia.org/wiki/Fossiliferous_limestone
 sandstone,https://en.wikipedia.org/wiki/Sandstone

@@ -107,7 +107,7 @@ stromatolite
 amber
 petrified wood
 coprolite
-coqina
+coquina
 chalk
 fossiliferous limestone
 sandstone
