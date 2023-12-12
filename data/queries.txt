@@ -98,7 +98,7 @@ agnatha	"class":["pteraspidomorphi","thelodonti","cephalaspidomorphi","osteostra
 bothriolepis	genus
 dunkleosteus	genus
 otodus	genus
-carcharocles megalodon	scientificname
+otodus megalodon	scientificname
 batoidea	"order":["batoidea","myliobatiformes","rajiformes","torpediniformes","rhinopristiformes"]
 knightia	genus
 xiphactinus	genus

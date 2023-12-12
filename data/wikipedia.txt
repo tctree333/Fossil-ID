@@ -97,7 +97,7 @@ agnatha,https://en.wikipedia.org/wiki/Agnatha
 bothriolepis,https://en.wikipedia.org/wiki/Bothriolepis
 dunkleosteus,https://en.wikipedia.org/wiki/Dunkleosteus
 otodus,https://en.wikipedia.org/wiki/Otodus
-carcharocles megalodon,https://en.wikipedia.org/wiki/Megalodon
+otodus megalodon,https://en.wikipedia.org/wiki/Megalodon
 batoidea,https://en.wikipedia.org/wiki/Batoidea
 knightia,https://en.wikipedia.org/wiki/Knightia
 xiphactinus,https://en.wikipedia.org/wiki/Xiphactinus
